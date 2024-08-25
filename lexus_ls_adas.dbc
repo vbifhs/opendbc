@@ -183,24 +183,32 @@ BO_ 688 TRACK_B_0: 8 XXX
  SG_ COUNTER : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ REL_ACCEL : 15|7@0- (1,0) [-64|63] "" XXX
  SG_ SCORE : 23|8@0+ (1,0) [0|100] "" XXX
+ SG_ REL_ACCEL2 : 31|7@0- (1,0) [-64|63] "" XXX
+ SG_ SCORE2 : 39|8@0+ (1,0) [0|100] "" XXX
  SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 689 TRACK_B_1: 8 XXX
  SG_ COUNTER : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ REL_ACCEL : 15|7@0- (1,0) [-64|63] "" XXX
  SG_ SCORE : 23|8@0+ (1,0) [0|100] "" XXX
+ SG_ REL_ACCEL2 : 31|7@0- (1,0) [-64|63] "" XXX
+ SG_ SCORE2 : 39|8@0+ (1,0) [0|100] "" XXX
  SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 690 TRACK_B_2: 8 XXX
  SG_ COUNTER : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ REL_ACCEL : 15|7@0- (1,0) [-64|63] "" XXX
  SG_ SCORE : 23|8@0+ (1,0) [0|100] "" XXX
+ SG_ REL_ACCEL2 : 31|7@0- (1,0) [-64|63] "" XXX
+ SG_ SCORE2 : 39|8@0+ (1,0) [0|100] "" XXX
  SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 691 TRACK_B_3: 8 XXX
  SG_ COUNTER : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ REL_ACCEL : 15|7@0- (1,0) [-64|63] "" XXX
  SG_ SCORE : 23|8@0+ (1,0) [0|100] "" XXX
+ SG_ REL_ACCEL2 : 31|7@0- (1,0) [-64|63] "" XXX
+ SG_ SCORE2 : 39|8@0+ (1,0) [0|100] "" XXX
  SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 548 TRACK_B_4: 8 XXX

@@ -376,6 +376,11 @@ BO_ 1592 DOOR_LOCKS: 8 XXX
  SG_ LOCK_STATUS : 20|1@0+ (1,0) [0|1] "" XXX
  SG_ LOCKED_VIA_KEYFOB : 23|1@0+ (1,0) [0|1] "" XXX
 
+BO_ 1936 DSU_DIAG_REQ_MSG: 8 Vector__XXX
+ SG_ PCI_REQ : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SID_REQ : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ PID_REQ : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
 CM_ SG_ 36 YAW_RATE "verify";
 CM_ SG_ 36 STEERING_TORQUE "does not seem the steer torque, tbd";
 CM_ SG_ 37 STEER_FRACTION "1/15th of the signal STEER_ANGLE, which is 1.5 deg; note that 0x8 is never set";

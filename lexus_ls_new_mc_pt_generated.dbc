@@ -380,7 +380,15 @@ BO_ 1936 DSU_DIAG_REQ_MSG: 8 TSTR
  SG_ PCI_REQ : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ SID_REQ : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ PID_REQ : 23|8@0+ (1,0) [0|255] "" XXX
-
+ 
+BO_ 1944 DSU_DIAG_RESP_MSG: 8 DSU
+ SG_ FF_IND : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ FF_DL : 3|12@0+ (1,0) [0|4095] "" XXX
+ SG_ SID_RESP : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ PID_RESP : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ CC_SET_COAST_SW_STAT : 37|1@0+ (1,0) [0|1] "" XXX
+ SG_ CC_RES_ACC_SW_STAT : 38|1@0+ (1,0) [0|1] "" XXX
+ SG_ CC_MAIN_SW_STAT : 39|1@0+ (1,0) [0|1] "" XXX
 
 CM_ SG_ 36 YAW_RATE "verify";
 CM_ SG_ 36 STEERING_TORQUE "does not seem the steer torque, tbd";
